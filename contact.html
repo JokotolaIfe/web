@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jokotola Ifeoluwa | Contact Me</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="bg-blue">
+      <nav class="nav-bar grid flex container">
+        <div class="logo">
+          <img src="assets/projects-images/logo.png" alt="logo" />
+        </div>
+        <div class="hamburger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="about.html" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="project.html" class="nav__link">Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a href="contact.html" class="current">Contact</a>
+          </li>
+          <li class="nav__item resume">
+            <a href="resume.pdf" class="btn">Resume</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="contact-wrapper container">
+        <div class="">
+          <h2>Contact Me</h2>
+          <div class="contact-info">
+            <h4>Do you have a billion Dollars idea?</h4>
+            <p>
+              Well, I can build it for you. Reach me using any of the links
+              below
+            </p>
+          </div>
+        </div>
+        <div class="contacts flex">
+          <div class="contact-links">
+            <div class="link-type-icon">
+              <img src="assets/icons/mail-box.png" alt="mail icon" />
+            </div>
+            <h5>Email Address</h5>
+            <p>jaywebs0@gmail.com; ifeoluwajokotola@gmail.com</p>
+          </div>
+          <div class="contact-links">
+            <div class="link-type-icon">
+              <img src="assets/icons/location.png" alt="location" />
+            </div>
+            <h5>Address</h5>
+            <p>Lagos Address: 29 Marina Rd, Lagos Island, Lagos, Nigeria</p>
+          </div>
+          <div class="contact-links">
+            <div class="link-type-icon">
+              <img src="assets/icons/phone.png" alt="phone icon" />
+            </div>
+            <h5>Phone Number</h5>
+            <p>09067502530, 08065546523</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="form-section">
+      <div class="container grid">
+        <div class="form-wrapper">
+          <h4>Well you might love forms instead</h4>
+          <p>Fill in the fields below and I'll get back to you shortly.</p>
+          <form
+            name="contact"
+            method="POST"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+            class="form-control"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <p class="hidden">
+              <label
+                >Don’t fill this out if you're human: <input name="bot-field"
+              /></label>
+            </p>
+            <div class="form-input">
+              <input type="text" placeholder="Your Name" />
+            </div>
+            <div class="form-input">
+              <input type="email" placeholder="Email Address" required />
+            </div>
+            <div class="form-input">
+              <textarea
+                name=""
+                id=""
+                cols="80"
+                rows="4"
+                placeholder="Type your message"
+              ></textarea>
+            </div>
+            <button>Send Message</button>
+          </form>
+        </div>
+        <div class="socials-link">
+          <h4>Other Platforms</h4>
+          <p style="text-align: center; margin-bottom: 40px">
+            You can also check out my profile and get to know more about me
+            using any of the social media links below
+          </p>
+          <div class="flex">
+            <div class="social-wrapper blue br-50">
+              <a
+                href="https://m.facebook.com/jayrick.efi?tsid=0.3025236065561847&source=result"
+                ><img src="assets/icons/fb.png" alt=""
+              /></a>
+            </div>
+            <div class="social-wrapper dark">
+              <a href="https://www.linkedin.com/in/ifeoluwa-jokotola-10109a104/"
+                ><img src="assets/icons/linkedin.png" alt=""
+              /></a>
+            </div>
+            <div class="social-wrapper pink">
+              <a href=""><img src="assets/icons/twitter.png" alt="" /></a>
+            </div>
+            <div class="social-wrapper black br-50">
+              <a href="http://www.github.com/JokotolaIfe"
+                ><img src="assets/icons/git.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wid container">
+      <h2 class="dif">Sneak Peek</h2>
+      <p class="my-none glim">Catch a glimpse before leaving.</p>
+      <a href="project.html" style="margin-bottom: 10px; padding-bottom: 5px"
+        >Check out more projects→</a
+      ><br />
+      <div class="grid">
+        <div class="project-img">
+          <img src="assets/projects-images/fashion.png" alt="" />
+        </div>
+        <div class="project-img">
+          <img src="assets/projects-images/project3.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer container">
+      <p>&copy; 2020 Jokotola Ifeoluwa</p>
+    </footer>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
